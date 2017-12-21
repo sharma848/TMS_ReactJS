@@ -1,0 +1,27 @@
+.header-section {
+    position: fixed;
+    width: 100%;
+    background-color: $header-background;
+    height: 80px;
+    display: inline-block;
+    z-index: 99;
+    ul {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        float: right;
+        li {
+            display: inline-block;
+            list-style: none;
+            padding: 30px;
+            .header-link {
+                text-decoration: none;
+                color: $white;
+                font-size: 18px;
+            }
+            .header-link:hover {
+                color: $black;
+            }
+        }
+    }
+}

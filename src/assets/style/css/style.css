@@ -1,0 +1,143 @@
+.top-margin-10 {
+  margin-top: 10px; }
+
+.top-margin-15 {
+  margin-top: 15px; }
+
+.top-margin-25 {
+  margin-top: 25px; }
+
+body {
+  background: #f5f5f5;
+  background-image: url("http://www.tirranan.com/images/airplane_1.jpg");
+  background-size: cover;
+  background-position: top center !important;
+  background-attachment: fixed;
+  margin: 0;
+  min-height: 100%; }
+
+#root {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column; }
+
+.form-input {
+  width: 250px;
+  height: 40px;
+  font-size: 14px;
+  border: solid 2px #c7c7c7;
+  border: none;
+  border-bottom: solid 3px #047a9c;
+  padding: 5px; }
+  .form-input:focus {
+    box-shadow: 0 0 5px 0 #047a9c, inset 0 1px 0 0 rgba(0, 0, 0, 0.5);
+    border: solid 1px #047a9c;
+    border-bottom: solid 4px #047a9c; }
+  .form-input:disabled {
+    background: #fff; }
+
+.form-group {
+  text-align: center;
+  padding: 5px; }
+
+.btn {
+  width: 150px;
+  height: 44px;
+  border-radius: 100px;
+  cursor: pointer; }
+
+.error-message {
+  text-align: center;
+  padding: 10px;
+  font-size: 20px;
+  color: red; }
+
+.login-container {
+  margin: 30px auto;
+  padding: 40px;
+  width: 450px;
+  font-size: 16px;
+  border-radius: 25px;
+  height: auto;
+  box-shadow: 0px 0px 14px 0px #c7c7c7;
+  background-color: #fff; }
+  .login-container .login-btn {
+    background-color: #047a9c;
+    color: #fff; }
+  .login-container .login-header-text {
+    text-align: center;
+    padding: 10px;
+    font-size: 20px; }
+  .login-container .signup {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 17px; }
+    .login-container .signup a {
+      text-decoration: none;
+      color: #0087E2;
+      font-size: 18px; }
+
+input[type="range"] {
+  -webkit-appearance: none;
+  -moz-apperance: none;
+  border-radius: 8px;
+  height: 8px;
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(0.15, #c7c7c7), color-stop(0.15, #047a9c)); }
+
+.header-section {
+  position: fixed;
+  width: 100%;
+  background-color: #007A6D;
+  height: 80px;
+  display: inline-block;
+  z-index: 99; }
+  .header-section ul {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    float: right; }
+    .header-section ul li {
+      display: inline-block;
+      list-style: none;
+      padding: 30px; }
+      .header-section ul li .header-link {
+        text-decoration: none;
+        color: #fff;
+        font-size: 18px; }
+      .header-section ul li .header-link:hover {
+        color: #000; }
+
+.signup-section {
+  margin: 30px auto;
+  padding: 50px 0px;
+  width: 400px;
+  font-size: 16px;
+  border-radius: 25px;
+  height: auto;
+  background-color: #fff; }
+  .signup-section .header-text {
+    text-align: center;
+    padding: 10px;
+    font-size: 20px; }
+  .signup-section .signup-btn {
+    background-color: #FDD333;
+    color: #000; }
+
+.tickets-section {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 100px; }
+  .tickets-section ul li a {
+    text-decoration: none;
+    color: #000; }
+  .tickets-section ul li a:hover {
+    text-decoration: underline; }
+  .tickets-section .tickets-header {
+    background: #fff;
+    border: 2px solid #ddd;
+    text-align: center;
+    padding: 10px 0;
+    margin-bottom: 20px;
+    border-radius: 5px; }
+
+/*# sourceMappingURL=style.css.map */

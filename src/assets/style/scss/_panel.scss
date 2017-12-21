@@ -1,0 +1,43 @@
+.signup-section {
+    margin: 30px auto;
+    padding: 50px 0px;
+    width: 400px;
+    font-size: 16px;
+    border-radius: 25px;
+    height: auto;
+    background-color: $white;
+    .header-text {
+        text-align: center;
+        padding: 10px;
+        font-size: 20px;
+    }
+    .signup-btn {
+        background-color: $light-yellow;
+        color: $black;
+    }
+}
+
+.tickets-section {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    ul {
+        li {
+            a {
+                text-decoration: none;
+                color: $black;
+            }
+            a:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+    .tickets-header {
+        background: $white;
+        border: 2px solid $border-color;
+        text-align: center;
+        padding: 10px 0;
+        margin-bottom: 20px;
+        border-radius: 5px;
+    }
+}
